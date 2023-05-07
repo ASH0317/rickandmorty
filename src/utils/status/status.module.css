@@ -1,0 +1,20 @@
+.alive {
+    background: rgb(85, 204, 68);
+}
+
+.dead {
+    background: rgb(214, 61, 46);
+}
+
+.unknown {
+    background: rgb(158, 158, 158);
+}
+
+.unknown,
+.dead,
+.alive {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    margin-top: 11px;
+}
